@@ -4,7 +4,7 @@ Crawl reviews từ tiki
 
 Ubuntu
 ```bash
-git clone https://github.com/haiminh2001/Tiki-review-crawl-tool.git
+git clone https://github.com/minhmannh2001/tiki_review_crawl.git
 cd Tiki-review-crawl-tool
 pip install -r requirements.txt
 webdrivermanager firefox --linkpath /usr/local/bin
@@ -14,7 +14,7 @@ Window (Chưa chạy bao giờ :)))
 
 Nếu không tải được webdriver thì tham khảo https://stackoverflow.com/questions/42524114/how-to-install-geckodriver-on-a-windows-system
 ```bash
-git clone https://github.com/haiminh2001/Tiki-review-crawl-tool.git
+git clone https://github.com/minhmannh2001/tiki_review_crawl.git
 cd Tiki-review-crawl-tool
 pip install -r requirements.txt
 webdrivermanager firefox --linkpath /path/to/folder
