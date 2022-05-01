@@ -20,7 +20,7 @@ ITEM_LINK_FILE = 'item_links.tx'
 def init_driver(headless= True):
     options = Options()
     options.headless = headless
-    driver=webdriver.Chrome(options= options)
+    driver=webdriver.Chrome(options= options, executable_path="/usr/local/bin/chromedriver")
     return driver
 
 def get_reviews_from_item(driver, url) -> pd.DataFrame:
